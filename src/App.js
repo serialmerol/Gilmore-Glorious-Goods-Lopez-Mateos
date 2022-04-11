@@ -3,21 +3,16 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>GILMORE GLORIOUS GOODS</h1>
+      <h2>Hello Intrepid Heroes</h2>
+      <div>
+        <h2>ITEMS</h2>
+        <li>The list pepperbox</li>
+        <li>Sarenrae lock</li>
+        <li>Simon the one eye snake belt</li>
+        <li>Mantle of the Tempest</li>
+      </div>
     </div>
   );
 }
