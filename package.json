@@ -1,7 +1,7 @@
 {
   "name": "gilmore",
   "version": "0.1.0",
-  "homepage": "https://serialmerol.github.io/Gilmore-Glorious-Goods-Lopez-Mateos/",
+  "homepage": "https://serialmerol.github.io/Gilmore-Glorious-Goods-Lopez-Mateos",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
