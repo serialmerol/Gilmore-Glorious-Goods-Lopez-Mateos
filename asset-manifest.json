@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Gilmore-Glorious-Goods---Lopez-Mateos/static/css/main.073c9b0a.css",
+    "main.js": "/Gilmore-Glorious-Goods---Lopez-Mateos/static/js/main.36a4891d.js",
+    "static/js/787.5e3c23f7.chunk.js": "/Gilmore-Glorious-Goods---Lopez-Mateos/static/js/787.5e3c23f7.chunk.js",
+    "static/media/logo.svg": "/Gilmore-Glorious-Goods---Lopez-Mateos/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Gilmore-Glorious-Goods---Lopez-Mateos/index.html",
+    "main.073c9b0a.css.map": "/Gilmore-Glorious-Goods---Lopez-Mateos/static/css/main.073c9b0a.css.map",
+    "main.36a4891d.js.map": "/Gilmore-Glorious-Goods---Lopez-Mateos/static/js/main.36a4891d.js.map",
+    "787.5e3c23f7.chunk.js.map": "/Gilmore-Glorious-Goods---Lopez-Mateos/static/js/787.5e3c23f7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.36a4891d.js"
+  ]
+}
