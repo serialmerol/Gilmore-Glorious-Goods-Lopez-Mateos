@@ -1,13 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import ItemListContainer from './components/ItemListContainer';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
     <div className="App">
-      <h1>GILMORE GLORIOUS GOODS</h1>
-      <h2>Hello Intrepid Heroes</h2>
+      
+      <NavBar/>
+      <ItemListContainer job='Hero'/>
+
       <div>
-        <h2>ITEMS</h2>
+        <h2 className='underline'>ITEMS</h2>
         <li>The list pepperbox</li>
         <li>Sarenrae lock</li>
         <li>Simon the one eye snake belt</li>
