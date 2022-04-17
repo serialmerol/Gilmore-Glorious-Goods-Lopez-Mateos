@@ -1,4 +1,4 @@
-import CarWidget from "../CarWidget"
+import CarWidget from "./CarWidget"
 
 const NavBar = () => {
   return (
