@@ -1,9 +1,13 @@
 
 export const ItemData = [
-    {id: 1, img:'https://c1.scryfall.com/file/scryfall-cards/large/front/c/4/c4927de5-69a4-4461-9ebe-b243e9cf00c4.jpg?1562936558', name:'The List', type:'Pepperbox', cost:'Your Soul' },
-    {id: 2, img:'https://c1.scryfall.com/file/scryfall-cards/large/front/9/d/9d8a0375-2b73-4514-9b82-9803eeae69c9.jpg?1562869982', name:'Sarenrae Symbol', type:'Lock', cost:"500gp"  },
-    {id: 3, img:'https://c1.scryfall.com/file/scryfall-cards/large/front/c/2/c21cbb10-9157-4887-a752-29b9e94fc77a.jpg?1562836560', name:'Simon the one eye', type:'Magic Belt', cost:"1000gp"  },
-    {id: 4, img:'https://c1.scryfall.com/file/scryfall-cards/large/front/1/9/19cd6bcc-ca47-47cc-9fe4-c29e9c176485.jpg?1561966400', name:'Mantle of the Tempest', type:'Mantle', cost:"500gp"  },
-    {id: 5, img:'https://c1.scryfall.com/file/scryfall-cards/large/front/b/7/b778a1cf-8ef9-4818-97e7-d3bfc50de3f3.jpg?1562938283', name:'Death from Above', type:'Flying Broom', cost:"1000gp"  },
-    {id: 6, img:'https://c1.scryfall.com/file/scryfall-cards/large/front/a/f/afcda8e4-d3dc-44f8-b277-b61fa261666b.jpg?1562927708', name:'Pate de Rolo', type:'Puppet', cost:"Priceless"  },
+    {id: 1, img:'https://i.imgur.com/I8QG97S.png?1', name:'The List', type:'Pepperbox', cost:'Your Soul', description:"Enchanted gun with the name of your enemies", category:'weapon'},
+    {id: 2, img:'https://i.imgur.com/XtjZfJC.png?1', name:'Sarenrae Symbol', type:'Lock', cost:"500gp", description:"Pray to this deidity and seek for a miracle", category:'enchantment'},
+    {id: 3, img:'https://i.imgur.com/yor6PKW.png', name:'Simon the one eye', type:'Magic Belt', cost:"1000gp", description:"keep your pants and scare at your enemies", category:'armor'},
+    {id: 4, img:'https://i.imgur.com/6UqVWdR.png', name:'Mantle of the Tempest', type:'Mantle', cost:"500gp", description:"it has foliage... I don't know...", category:'armor'},
+    {id: 5, img:'https://i.imgur.com/XMRyk2F.png?1', name:'Death from Above', type:'Flying Broom', cost:"1000gp", description:"Fly with style, enormous hat not included", category:'enchantment'},
+    {id: 6, img:'https://i.imgur.com/0RGLGvZ.png?1', name:'Pate de Rolo', type:'Puppet', cost:"Priceless", description:"kinda cute puppet made froma real rat corpse", category:'enchantment'},
+    {id: 7, img:'https://i.imgur.com/C4MpsqX.png?1', name:'Glass Hammer', type:'Hammer', cost:"500gp", description:"Made from pieces of Ashton head", category:'weapon'},
+    {id: 8, img:'https://i.imgur.com/ALRyGdv.png?1', name:'Potion of Healing', type:'Healing', cost:"350gp", description:"little down on HP, chug this and keep fighting", category:'potion'},
+    {id: 9, img:'https://i.imgur.com/1rNGiP1.png?1', name:'Potion of Fire Breathing', type:'Harmful', cost:"100gp", description:"Feel like a real dragon and spit fire to your enemies", category:'potion'},
+    {id: 10, img:'https://i.imgur.com/eAJQKE7.png?1', name:'Summers Dance', type:'Falchion', cost:"2000gp", description:"falchion made from moonstone and some ukotoa magic", category:'weapon'},
 ]

@@ -1,18 +1,19 @@
 import CarWidget from "./CarWidget"
+import { Link } from "react-router-dom"
 
 const NavBar = () => {
   return (
     <header> 
-        <div class="navbar bg-neutral">
-            <div class="navbar-start">
-                 <button href="#" class="btn normal-case text-xl" >GILMORE GLORIOUS GOODS</button>
+        <div className="navbar bg-neutral">
+            <div className="navbar-start">
+                 <Link to="/" className="btn normal-case text-xl" >GILMORE GLORIOUS GOODS</Link>
             </div>
-            <div class="navbar-end lg:flex">
-                <ul class="menu menu-horizontal">
-                    <li><button href="#">Armor</button></li>
-                    <li><button href="#">Weapons</button></li>
-                    <li><button href="#">Potions</button></li>
-                    <li><button href="#">Enchantments</button></li>
+            <div className="navbar-end lg:flex">
+                <ul className="menu menu-horizontal navbar-center">
+                    <li><Link to="/categoria/armor">Armor</Link></li>
+                    <li><Link to="/categoria/weapon">Weapons</Link></li>
+                    <li><Link to="/categoria/potion">Potions</Link></li>
+                    <li><Link to="/categoria/enchantment">Enchantments</Link></li>
                 </ul>
             </div>
             <CarWidget/>

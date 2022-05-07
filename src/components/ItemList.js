@@ -1,26 +1,7 @@
-import React, { useEffect, useState } from 'react'
-import { ItemData } from './data/ItemData'
+import React from 'react'
 import ItemCard from './ItemCard'
 
-const ItemList = () => {
-
-  const [items, setItems] = useState([])
-
-  useEffect(() => {
-
-    getItems().then( data =>{
-      setItems( data)
-    })
-  }, [])
-  
-  const getItems = () => {
-    return new Promise( (resolve, reject) => {
-      setTimeout(() => {
-        resolve(ItemData)
-      }, 3000);
-
-    })
-  }
+const ItemList = ({items}) => {
 
   return (
     <div className='flex'>
